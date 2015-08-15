@@ -77,6 +77,16 @@ nav ul a {
   width: 38%;
 }
 
+.main .contact img {
+  margin: 0 auto;
+  width: 300px;
+  display: block;
+}
+
+.main .caption h4 {
+  text-align: center;
+}
+
 footer {
   height: 500px;
   background: yellow;
