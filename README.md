@@ -1,4 +1,4 @@
 
 
 
-git remote add origin git@github.com:theironyard/crash-course-html-css-js.git
+git remote set-url origin git@github.com:theironyard/crash-course-html-css-js.git
