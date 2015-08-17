@@ -101,7 +101,7 @@ nav ul a:hover {
 }
 
 footer {
-  height: 500px;
+  height: 450px;
   background: #B1d4cd;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -119,10 +119,20 @@ footer .animation {
   text-align: center;
 }
 
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer li {
+  margin-bottom: 10px;
+
+}
+
 
 .doughnut {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
   background: url('../images/footer-doughnut.png') no-repeat;
   display: inline-block;
   position: relative;
@@ -143,12 +153,10 @@ footer .animation {
 
 .btn:hover {
   cursor: pointer;
-  background: #4548AC;
+  background: #90172A;
 }
 
-.collection {
-max-width: 100%;
-}
+
 .sprinkles {
   display: none;
   position: absolute;
