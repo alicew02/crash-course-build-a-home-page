@@ -86,20 +86,15 @@ p {
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   color: #39474e;
   border-bottom: 1px solid #6fbbb7;
   padding: 4px 0;
-  transition: background .2s ease-out, padding .2s ease-out, transform .2s ease-out;
+  transition: border .2s ease-out;
 }
 
 a:hover {
-  background: #6fbbb7;
-  color: #fff;
-  padding: 4px;
-  border-radius: 3px;
-  transform: scale(1.1);
+  border-bottom: 3px solid #6fbbb7;
 }
 
 
