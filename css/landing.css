@@ -102,4 +102,14 @@ a:hover {
   main, aside {
     width: 100%;
   }
+  header {
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 580px) {
+  header h1 {
+    font-size: 1.9em;
+  }
 }
