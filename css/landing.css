@@ -101,3 +101,10 @@ a:hover {
   border-radius: 3px;
   transform: scale(1.1);
 }
+
+
+@media (max-width: 1024px) {
+  main, aside {
+    width: 100%;
+  }
+}
