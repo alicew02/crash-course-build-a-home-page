@@ -1,5 +1,3 @@
-
-
 ## Campus Overview
 
 **Duration:** 3hrs
@@ -17,77 +15,27 @@ This overview informs instructors on how to teach this crash course in approxima
 1. [Setup](#setup)
 2. HTML Tags and whitespace
  1. Attributes
- 1. CSS include
+3. [Basic CSS](#css)
  1. Tag Selectors
  1. Class Selectors
  1. Nesting HTML
 1. [Project](#project)
- 1. Introduce the HTML 
+ 1. Introduce the HTML
  1. Design the Header
 1. [Extra Learning with JavaScript](#jsExtra)
 
-<a id="setup"></a>
+<a id="setup"/>
 ## Setup
 
 To start, it's recommended that students download [SublimeText](http://www.sublimetext.com/2) prior to attending. It's also recommended that the students use [Chrome]() or [Firefox]() when doing the Workshop.
 
+Set up folder structure with the following files and explain their purpose
 
-- Set up folder structure with the following files
     - index.html
     - css
         - styles.css
     - scripts
         - main.js
-
-
-    - tag structure with `<html>`, `<head>` `<body>`
-    - Explain differences between `<head>` vs `<body>`
-    - Writing Something like "hello" in plain text in the `<body>` without adding tags around this. Then add `<p>` tags
-    - Walk through all headline, paragraph, and anchor tags
-    - attributes and classes
-    - create a header
-    - Good practice: use a container element
-    - parent,child, and siblings elements
-    - image tag
-    - `<link>` to CSS
-    - syntax of classes
-    - width and height
-    - `background-color` and different ways to do `color`
-    - margins and `margin: 0 auto;`
-    - inspect element
-    - nesting in HTML and targeting child elements in CSS
-    - border radius
-    - display elements
-    - `*` as an option vertical-align: top on
-    - position
-    - different types of color
-    - font-size
-    -
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## HTML Tags and Whitespace
 
@@ -95,7 +43,7 @@ Start your HTML file by typing only plain-text. Show that this can be saved and 
 
 After showing plain-text, show how simple tags like `<p>` and `<h1>` can be used to enhance our document. Explain the "anatomy" of a tag and how opening/closing tags work. Using paragraph tags are nice because you can demonstrate how space is created between the content when rendered.
 
-## Attributes
+### Attributes
 
 Explain that attributes enhance tags and give them more abilities. Anchor tags are a great example of explaining attributes.
 
@@ -123,38 +71,37 @@ At this point, your demonstration might look something like:
 
 ```
 
+<a id="css"/>
 ## CSS
 
-Show students how to create a CSS file in a `styles` folder, connecting it properly to the HTML page.
+Show students how to create a CSS file in a `styles` folder and use a `<link rel="stylesheet" type="text/css" href="css/styles.css">` to link it.
 
-### Display Elements
+### Tag Selectors
 
 Introduce the basic concepts of inline vs block tags. It's important to stylize several paragraphs all to be `background-color: something` so the students can see that no matter how many tags we have, the CSS will apply to all that match.
 
 ### Class Selectors
 
-Since we're at a point where we have all of our paragraphs stylized with one CSS block, it would be a good time to introduce the concept of classes and how to stylize a whole group of tags (as with all the paragraphs) and then to isolate certain ones with class names. 
+Since we're at a point where we have all of our paragraphs stylized with one CSS block, it would be a good time to introduce the concept of classes and how to stylize a whole group of tags (as with all the paragraphs) and then to isolate certain ones with class names.
 
 > Tip: Since the students are already familiar with tag selectors, it would be important to the syntax: `tag.class-name` instead of just `.class-name` so the students feel like they are adding to their already existing knowledge of tag selectors
 
 ## Nesting in HTML
 
-So far we should only have simple tags in our HTML without nesting. Nesting might be difficult to explain without seeing colors applied to tags so it makes more sense to explain nesting after we've applied some CSS. One idea could be to wrap our paragraph tags in a div tag and then stylized our div with a background color. 
+So far we should only have simple tags in our HTML without nesting. Nesting might be difficult to explain without seeing colors applied to tags so it makes more sense to explain nesting after we've applied some CSS. One idea could be to wrap our paragraph tags in a div tag and then stylized our div with a background color.
 
 It will be important to introduce terms like `parent`, `child`, `sibling`, and `container` at this point so the students can more easily converse with the instructors when the see the project.
 
 <a id="project"></a>
 # Project
 
-With both the `index.html` and `final.html` files open in the browser, explain that the goal of the project is to add styles to get the first file to look like the second.
-
-Its important to know that the `index.html` file includes `base.css` and `theme.css`. The base file sets up CSS structure and the students should ignore that file for now. The theme file is where the students will work on their CSS skills. Notice that this file already has all the selectors written for the students. It also has all the properties written in the comments section at the top of the CSS file. The goal is to have the students copy/paste the properties to the appropriate selector blocks.
+This repo's gh-pages branch contains all files students should download.
 
 ## Introduce the HTML
 
 It will be important to show the students the project's HTML at this point. Since the project makes use of proper `<html>`, `<head>`, and `<body>` tags. It might be useful to explain those in an isolated file at first.
 
-Show the students that there are very semantic tag names with easy-to-understand classes and how it's relatively easy to tell which parts of the HTMl correspond to which parts of the design.
+Show the students that there are very semantic tag names with easy-to-understand classes and how it's relatively easy to tell which parts of the HTML correspond to which parts of the design.
 
 ## Design the Header
 
@@ -167,8 +114,6 @@ Teach the basic concept of a reset and how the asterisk selector is used to appl
     vertical-align: top;
 }
 ```
-
-
 
 <a id="jsExtra"></a>
 # Extra Learning with JavaScript and toggling
