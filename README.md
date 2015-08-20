@@ -95,7 +95,7 @@ It will be important to introduce terms like `parent`, `child`, `sibling`, and `
 <a id="project"></a>
 # Project
 
-This repo's gh-pages branch contains all files students should download.
+This repo's [GH Pages](https://theironyard.github.io/crash-course-build-a-home-page/) contains all files students should need.
 
 ## Introduce the HTML
 
@@ -120,5 +120,4 @@ Teach the basic concept of a reset and how the asterisk selector is used to appl
 
 If you have time, you can teach the students some basic JavaScript concepts. Start by teaching the concept of state-management with class names. You might have styles applied to a paragraph which serve as a default state, but then having a `class="selected"` is a new visual state and we accomplish this with class names. You might need to introduce the concept of multiple class names in HTML and how to select something with multiple class names in the browser.
 
-Notice that the `final.html` file includes jQuery and a JavaScript file at the bottom. In that JavaScript file you'll notice a simple event handler for when boxes get clicked. You can show the basics of how jQuery works with events and how classes can be toggled on and off of DOM elements with the "add spinkles button in the footer". 
-
+Notice that the sample includes a JS file. In that JS you'll notice a simple event handler for when boxes get clicked. You can show the basics of how jQuery works with events and how classes can be toggled on and off of DOM elements with the "add spinkles button in the footer".
