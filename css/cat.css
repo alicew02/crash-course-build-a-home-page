@@ -1,0 +1,59 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+h1 {
+        text-align: center;
+}
+
+p {
+        margin: 10px;
+}
+img#cat {
+  width: 25%;
+  padding: 15px;
+  float: right;
+}
+
+li {
+}
+
+li.blue {
+        color: blue;
+}
+
+li.green {
+        color: green;
+}
+
+li.joe {
+        color: red;
+}
+
+ol {
+        padding-left: 40px;
+        margin: 10px;
+        list-style-type: upper-roman;
+}
+
+#header {
+  background-color: grey;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#header ul {
+  list-style-type: none;
+}
+
+#header ul li {
+  display: inline;
+}
+
+#header a {
+  padding: 5px;
+  font-size: 14pt;
+  color: white;
+}
