@@ -33,7 +33,8 @@ Set up folder structure with the following files and explain their purpose
 
     - index.html
     - css
-        - styles.css
+        - style.css
+    - images
     - scripts
         - main.js
 
