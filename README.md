@@ -1,6 +1,8 @@
 ## Build A Home Page 
 
-[Finished site](https://theironyard.github.io/crash-course-build-a-home-page/example)
+- [Starter files](https://github.com/theironyard/crash-course-build-a-home-page/raw/master/TheIronYard-CrashCourse-BuildAWebPage-StartFiles.zip) (for students to download)
+- [Finished site](https://theironyard.github.io/crash-course-build-a-home-page/example)
+
 ## Instructor Overview
 This overview informs instructors on how to teach this crash course in approximately 3 hours. The structure of this crash course is part lecture and part assignment. The objective is for students to leave the crash course with a completed web page, built with basic HTML, CSS, and JavaScript.
 
