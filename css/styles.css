@@ -47,26 +47,19 @@ nav ul a:hover {
 }
 
 .hero-banner {
-  height: 400px;
+  height: 250px;
+  padding-top: 150px;
   width: 100%;
   background: url('../images/doughnuts.jpg') fixed;
   background-size: cover;
   position: relative;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(245,226,192, 0.5);
-}
 
 .hero-banner h1 {
   text-align: center;
   font-size: 72px;
-  margin-top: 150px;
+  margin-top: 0;
 }
 
 .main {
